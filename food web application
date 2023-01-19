@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <html>
+  <head>
+    <title>Food App</title>
+    <style>
+      header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header li {
+  float: left;
+}
+
+ header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+      .text-content a{
+        text-decoration:none;
+        color:black;
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+        text-align: center;
+      }
+      .labels{
+        margin-bottom:40px;
+        font-size: 27px;
+        font-weight: bold;
+        color:aliceblue;
+        text-align: center;
+        font-family:'Times New Roman', Times, serifs
+      }
+      .fooditem{
+        width:400px;
+        height:400px;
+        position: relative;
+        border-radius: 20px;
+        text-align: center;
+      }
+      .heading{
+        color:white;
+        text-align: center;
+      }
+      .item-list{
+        font-size:25px;
+        font-weight:100;
+        
+      }
+    </style>
+  </head>
+  <body style="padding:0px;margin:0px;background-color:rgb(131, 161, 166);">
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="text-content">
+        <h1 class ="heading">Top 5 favourite food Items</h1>
+        <ul class = "item-list">
+          <li><a href="#Biryani">Biryani</a></li>
+          <li><a href="#Noodles">Noodles</a></li>
+          <li><a href="#Manchuria">Manchuria</a></li>
+          <li><a href="#Pastries">Pastries</a></li>
+          <li><a href="#Fish fry">Fish fry</a></li>
+        </ul>
+      </div> 
+      <div class="images">
+        <div id="biryani"><img src="https://media.istockphoto.com/photos/chicken-biriyani-picture-id1345624336?b=1&k=20&m=1345624336&s=612x612&w=0&h=gPAqjaiYjKU16leKNL0vbbdo3lwu4Wr_PoyuC95bbN8=" class="fooditem"></div>
+        <p class="labels">BIRYANI</p>
+        <div id="Noodles"><img src="https://images.pexels.com/photos/2456434/pexels-photo-2456434.jpeg?auto=compress&cs=tinysrgb&w=600" class="fooditem"/></div>
+        <p class="labels">NOODLES</p>
+        <div id="Manchuria"><img src="https://media.istockphoto.com/id/1442669157/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?b=1&s=612x612&w=0&k=20&c=yLDqiRPiknDtGtfcunBi5VOVwGa0nfbQSKfObaB527I= " class ="fooditem"/></div>
+        <p class="labels">MANCHURIA</p>
+        <div id="Pastries"><img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600" class="fooditem"/></div>
+        <p class="labels">PASTRIES</p>
+        <div id="Fish fry"><img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=600" class="fooditem"/></div>
+        <p class="labels">FISH FRY</p>
+      </div>
+    </div>
+  </body>
+</html>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <html>
+  <head>
+    <title>Food App</title>
+    <style>
+      header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header li {
+  float: left;
+}
+
+ header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+      .text-content a{
+        text-decoration:none;
+        color:black;
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+        text-align: center;
+      }
+      .labels{
+        margin-bottom:40px;
+        font-size: 27px;
+        font-weight: bold;
+        color:aliceblue;
+        text-align: center;
+        font-family:'Times New Roman', Times, serifs
+      }
+      .fooditem{
+        width:400px;
+        height:400px;
+        position: relative;
+        border-radius: 20px;
+        text-align: center;
+      }
+      .heading{
+        color:white;
+        text-align: center;
+      }
+      .item-list{
+        font-size:25px;
+        font-weight:100;
+        
+      }
+    </style>
+  </head>
+  <body style="padding:0px;margin:0px;background-color:rgb(131, 161, 166);">
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="text-content">
+        <h1 class ="heading">Top 5 favourite food Items</h1>
+        <ul class = "item-list">
+          <li><a href="#Biryani">Biryani</a></li>
+          <li><a href="#Noodles">Noodles</a></li>
+          <li><a href="#Manchuria">Manchuria</a></li>
+          <li><a href="#Pastries">Pastries</a></li>
+          <li><a href="#Fish fry">Fish fry</a></li>
+        </ul>
+      </div> 
+      <div class="images">
+        <div id="biryani"><img src="https://media.istockphoto.com/photos/chicken-biriyani-picture-id1345624336?b=1&k=20&m=1345624336&s=612x612&w=0&h=gPAqjaiYjKU16leKNL0vbbdo3lwu4Wr_PoyuC95bbN8=" class="fooditem"></div>
+        <p class="labels">BIRYANI</p>
+        <div id="Noodles"><img src="https://images.pexels.com/photos/2456434/pexels-photo-2456434.jpeg?auto=compress&cs=tinysrgb&w=600" class="fooditem"/></div>
+        <p class="labels">NOODLES</p>
+        <div id="Manchuria"><img src="https://media.istockphoto.com/id/1442669157/photo/food-photos-various-entrees-appetizers-deserts-etc.jpg?b=1&s=612x612&w=0&k=20&c=yLDqiRPiknDtGtfcunBi5VOVwGa0nfbQSKfObaB527I= " class ="fooditem"/></div>
+        <p class="labels">MANCHURIA</p>
+        <div id="Pastries"><img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600" class="fooditem"/></div>
+        <p class="labels">PASTRIES</p>
+        <div id="Fish fry"><img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=600" class="fooditem"/></div>
+        <p class="labels">FISH FRY</p>
+      </div>
+    </div>
+  </body>
+</html>
+</body>
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: black;
+  text-align:left;
+}
